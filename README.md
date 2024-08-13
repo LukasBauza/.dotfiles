@@ -12,11 +12,11 @@ Ensure the following packages are installed on your system.
 ## Installtion
 Check out the dotfiles repo in you $HOME directory using git.
 ```shell
-$ git clone git@github.com:LukasBauza/.dotfiles.git
-$ cd dotfiles
+git clone git@github.com:LukasBauza/.dotfiles.git
+cd .dotfiles
 ```
 
 Use GNU stow to create symlinks to your dot files.
 ```shell
-$ stow .
+stow .
 ```
