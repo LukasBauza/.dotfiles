@@ -5,7 +5,6 @@ local options = {
 	relativenumber = true,
 	numberwidth = 2,
 	signcolumn = "yes",
-    pumheight = 0,
 	ignorecase = true,
 	smartcase = true,
     sidescrolloff = 8,
@@ -16,7 +15,7 @@ local options = {
 	splitbelow = true,
 	splitright = true,
 	termguicolors = true,
-	undofile = false,
+	undofile = true,
     swapfile = false,
 }
 
