@@ -4,5 +4,5 @@ return {
     keys = {
         { '<leader>ff', require('telescope.builtin').find_files, desc = '[f]ind [f]iles' },
         { '<leader>fg', require('telescope.builtin').live_grep, desc = '[f]ile [g]rep' },
-    }
+    },
 }
