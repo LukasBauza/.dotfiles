@@ -9,6 +9,7 @@ return {
             'c',
             'diff',
             'html',
+            'kdl',
             'javascript',
             'jsdoc',
             'jsonc',

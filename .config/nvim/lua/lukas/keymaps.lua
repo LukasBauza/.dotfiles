@@ -3,7 +3,7 @@ vim.g.mapleader = " "
 local keymap = vim.keymap.set
 
 -- :[N]Lexplore, N% of the current window will be used for the new window.
-keymap("n", "<leader>e", ":20Lexplore<CR>", { desc = "Open file tree" })
+keymap("n", "<leader>e", ":25Lexplore<CR>", { desc = "Open file tree" })
 
 keymap("n", "<Esc>", ":noh<CR>", { desc = "Clear search highlight" })
 
