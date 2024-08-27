@@ -4,4 +4,4 @@ return {
   config = function()
         vim.cmd('colorscheme kanagawa-wave')
   end
-} 
+}
