@@ -38,5 +38,5 @@ index = 17
 color = '#ff5d62'
 
 [font]
-normal = { family = "IntoneMono Nerd Font Mono", style = "Regular" }
+normal = { family = "JetBrainsMonoNL Nerd Font Mono", style = "Regular" }
 size = 12

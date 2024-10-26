@@ -17,6 +17,7 @@ local options = {
 	termguicolors = true,
 	undofile = true,
     swapfile = false,
+    clipboard = "",
 }
 
 for key, value in pairs(options) do

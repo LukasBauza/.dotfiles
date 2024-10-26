@@ -7,6 +7,8 @@ return {
         ensure_installed = {
             'bash',
             'c',
+            'cpp',
+            'csv',
             'diff',
             'html',
             'kdl',
