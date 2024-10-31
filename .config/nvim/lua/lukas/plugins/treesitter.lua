@@ -1,6 +1,9 @@
 return {
     'nvim-treesitter/nvim-treesitter',
     build = ':TSUpdate',
+    dependencies = {
+        { "nushell/tree-sitter-nu", build = ":TSUpdate nu" },
+    },
     opts = {
         highlight = { enable = true },
         indent = { enable = true },
@@ -20,6 +23,7 @@ return {
             'luap',
             'markdown',
             'markdown_inline',
+            'nu',
             'printf',
             'python',
             'pypa',
