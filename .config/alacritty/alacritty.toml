@@ -41,5 +41,7 @@ color = '#ff5d62'
 normal = { family = "CaskaydiaCoveNerdFontMono", style = "Regular" }
 size = 12
 
-[shell]
+[terminal]
+
+[terminal.shell]
 program = "/usr/bin/nu"
