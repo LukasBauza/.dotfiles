@@ -38,10 +38,15 @@ index = 17
 color = '#ff5d62'
 
 [font]
-normal = { family = "CaskaydiaCoveNerdFontMono", style = "Regular" }
+normal = { family = "CaskaydiaMonoNerdFontMono", style = "Regular" }
 size = 12
 
 [terminal]
 
 [terminal.shell]
 program = "/usr/bin/nu"
+
+[mouse]
+bindings = [
+{ mouse = "Middle", action = "None"},
+]

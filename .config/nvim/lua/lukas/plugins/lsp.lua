@@ -11,7 +11,6 @@ return {
                 "markdown_oxide",
                 "clangd",
                 "bashls",
-                "cmake",
                 "cssls",
                 "html",
                 "tsserver",
@@ -29,7 +28,6 @@ return {
             require("lspconfig").markdown_oxide.setup({})
             require("lspconfig").clangd.setup({})
             require("lspconfig").bashls.setup({})
-            require("lspconfig").cmake.setup({})
             require("lspconfig").cssls.setup({})
             require("lspconfig").html.setup({})
             require("lspconfig").tsserver.setup({})

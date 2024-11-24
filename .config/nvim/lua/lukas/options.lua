@@ -18,6 +18,7 @@ local options = {
 	undofile = true,
     swapfile = false,
     clipboard = "",
+    mouse = "",
 }
 
 for key, value in pairs(options) do
