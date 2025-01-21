@@ -29,7 +29,6 @@ return {
             require("lspconfig").bashls.setup({})
             require("lspconfig").cssls.setup({})
             require("lspconfig").html.setup({})
-            require("lspconfig").tsserver.setup({})
             require("lspconfig").pyright.setup({})
             require("lspconfig").ruff.setup({})
 
