@@ -13,7 +13,6 @@ return {
                 "bashls",
                 "cssls",
                 "html",
-                "tsserver",
                 "pyright",
                 "ruff",
             },
