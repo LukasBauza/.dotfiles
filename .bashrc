@@ -1,8 +1,5 @@
 # .bashrc
 
-# bashrc terminal prompt color
-export PS1="\[\e[0;32m\][\u@\h \W]\$ \[\e[0m\]"
-
 # Source global definitions
 if [ -f /etc/bashrc ]; then
     . /etc/bashrc
@@ -26,7 +23,3 @@ if [ -d ~/.bashrc.d ]; then
     done
 fi
 unset rc
-
-# Doom emacs path
-PATH="$HOME/.emacs.d/bin:$PATH"
-PATH="$HOME/opt/android-studio/bin:$PATH"
