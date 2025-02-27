@@ -15,6 +15,7 @@ return {
                 "html",
                 "pyright",
                 "ruff",
+                "tinymist",
             },
         },
     },
